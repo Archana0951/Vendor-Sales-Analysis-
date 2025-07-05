@@ -1,0 +1,23 @@
+.
+2025-07-02 11:58:13,923 - INFO - Creating vendor summary Table...
+2025-07-02 11:58:23,304 - INFO - Vendor Summary Table created successfully.
+2025-07-02 11:58:23,304 - INFO - Top 5 rows before cleaning:
+2025-07-02 11:58:23,316 - INFO - 
+ VendorNumber                  VendorName  Brand             Description  ActualPrice Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  TotalSalesPrice  TotalSalesDollars  TotalExciseTax  FreightCost
+       3960.0 DIAGEO NORTH AMERICA INC    4261.0  Capt Morgan Spiced Rum        22.99   1750                93071.0            1504958.07             18666.0         39979.82          410486.34        34297.38    257032.07
+       1128.0 BROWN-FORMAN CORP           1233.0 Jack Daniels No 7 Black        36.99   1750                50158.0            1317650.66              8879.0         59995.33          319555.21        16313.84     68601.68
+       4425.0       MARTIGNETTI COMPANIES 3405.0   Tito's Handmade Vodka        28.99   1750                55578.0            1288853.82              8641.0         47904.01          258854.59        15876.53    144929.24
+      17035.0 PERNOD RICARD USA           8068.0        Absolut 80 Proof        24.99   1750                64764.0            1181295.36             10061.0         44328.85          259946.39        18485.44    123780.22
+       3960.0 DIAGEO NORTH AMERICA INC    3545.0         Ketel One Vodka        29.99   1750                49448.0            1082416.72             11435.0         48653.88          344309.65        21010.55    257032.07
+2025-07-02 11:58:23,316 - INFO - Cleaning Data...
+2025-07-02 11:58:23,346 - INFO - Data cleaned successfully.
+2025-07-02 11:58:23,346 - INFO - Top 5 rows after cleaning:
+2025-07-02 11:58:23,359 - INFO - 
+ VendorNumber               VendorName  Brand             Description  ActualPrice  Volume  TotalPurchaseQuantity  TotalPurchaseDollars  TotalSalesQuantity  TotalSalesPrice  TotalSalesDollars  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  StockTurnOver  SalesPurchaseRatio
+       3960.0 DIAGEO NORTH AMERICA INC 4261.0  Capt Morgan Spiced Rum        22.99  1750.0                93071.0            1504958.07             18666.0         39979.82          410486.34        34297.38    257032.07  -1094471.73   -266.628051       0.200557            0.272756
+       1128.0        BROWN-FORMAN CORP 1233.0 Jack Daniels No 7 Black        36.99  1750.0                50158.0            1317650.66              8879.0         59995.33          319555.21        16313.84     68601.68   -998095.45   -312.338970       0.177021            0.242519
+       4425.0    MARTIGNETTI COMPANIES 3405.0   Tito's Handmade Vodka        28.99  1750.0                55578.0            1288853.82              8641.0         47904.01          258854.59        15876.53    144929.24  -1029999.23   -397.906496       0.155475            0.200841
+      17035.0        PERNOD RICARD USA 8068.0        Absolut 80 Proof        24.99  1750.0                64764.0            1181295.36             10061.0         44328.85          259946.39        18485.44    123780.22   -921348.97   -354.438071       0.155349            0.220052
+       3960.0 DIAGEO NORTH AMERICA INC 3545.0         Ketel One Vodka        29.99  1750.0                49448.0            1082416.72             11435.0         48653.88          344309.65        21010.55    257032.07   -738107.07   -214.373042       0.231253            0.318093
+2025-07-02 11:58:23,359 - INFO - Ingesting data...
+2025-07-02 11:58:23,452 - INFO - Data ingestion completed.
